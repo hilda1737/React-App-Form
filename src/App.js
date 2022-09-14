@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
-
+import './App.css'
+// import React,{useState ,us} from 'react';
+import User from "./users"
+// import Forms from './trial'
 function App() {
+  // const[name ,setName]=useState(0);
+  // const[password,setPassword]=useState("")
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <User/>
+      
+    
     </div>
   );
 }
 
 export default App;
+
+
+// const[count ,setCount]=useState(0);
+//   const[name,setName]=useState("")
+//   useEffect(()=>{
+//   setName("Sabdio")
+//   setCount(count+1)
+//   },[])
+
+//   return (
+//     <div>
+//       <h1>{name}</h1>
+//      <p>{count}</p>
+//      <button
+//       onClick={()=>{setCount(count+1)}}>Click Me
+//      </button>
+//     </div>
+
+
+
